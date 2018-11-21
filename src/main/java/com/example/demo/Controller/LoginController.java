@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping("/account/login")
 public class LoginController {
 
+    //git test
     @GetMapping
     public String login() {
         return "login";
